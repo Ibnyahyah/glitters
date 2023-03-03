@@ -81,7 +81,7 @@ nav ul li a {
 
 nav>label {
     position: absolute;
-    height: calc(100vh + 90px);
+    height: calc(50vh + 90px);
     width: 100vw;
     left: 0;
     right: 20px;
@@ -514,7 +514,7 @@ footer ul>li img {
     section.why_choose_us_section h1,
     section.contact_us_section h1,
     section.category_section h1 {
-        font-size: 24px;
+        font-size: 30px;
         line-height: 24px;
         padding-bottom: 30px;
     }
