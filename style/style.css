@@ -81,7 +81,7 @@ nav ul li a {
 
 nav>label {
     position: absolute;
-    height: calc(40vh + 90px);
+    height: calc(35vh + 90px);
     width:100%;
     right: 20px;
     top: 0;
