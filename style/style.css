@@ -82,8 +82,6 @@ nav ul li a {
 nav>label {
     position: absolute;
     height: calc(50vh + 90px);
-    width: 100vw;
-    left: 0;
     right: 20px;
     top: 0;
     background-color: transparent;
