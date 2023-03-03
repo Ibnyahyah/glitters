@@ -19,6 +19,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
 }
 
 a,
@@ -41,6 +42,7 @@ section.hero_section {
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow-x: hidden;
 }
 
 nav {
@@ -81,7 +83,7 @@ nav ul li a {
 
 nav>label {
     position: absolute;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     left: 0;
     right: 20px;
@@ -89,6 +91,7 @@ nav>label {
     bottom: 0;
     background-color: transparent;
     display: none;
+    overflow-x: hidden;
 }
 
 nav>label>label {
@@ -111,7 +114,6 @@ nav>label>label img {
 
 /* image border */
 section.about_section div.about_image img,
-section.why_choose_us_section .info_card img,
 section.contact_us_section .info_card>div {
     border-radius: 300px 300px 0px 0px;
     border: 1px solid var(--brown);
@@ -228,7 +230,11 @@ section.why_choose_us_section .info_card.mid {
 }
 
 section.why_choose_us_section .info_card {
+    border-radius: 300px 300px 0px 0px;
+    border: 1px solid var(--brown);
     text-align: center;
+    margin-bottom: 15px;
+    padding: 10px 10px 0px;
 }
 
 section.why_choose_us_section .info_card h4 {
@@ -385,6 +391,10 @@ footer ul>li img {
     }
 
     /* hero section */
+    section.hero_section {
+        height: 90vh;
+    }
+
     section.hero_section main {
         width: 70%;
     }
@@ -396,10 +406,6 @@ footer ul>li img {
 
     div.hero_content p {
         font-size: 18px;
-    }
-
-    section.hero_section main::before {
-        display: none;
     }
 
     /* about section */
@@ -419,7 +425,6 @@ footer ul>li img {
     }
 
     section.about_section div.about_image {
-
         margin: 15px auto;
     }
 
@@ -492,8 +497,14 @@ footer ul>li img {
 
     /* hero section */
     div.hero_content h1 {
-        font-size: 28px;
-        line-height: 28px;
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    section.hero_section main::before {
+        transform: scale(1);
+        width: 90%;
+        height: 70%;
     }
 
     /* about section */
