@@ -86,7 +86,6 @@ nav>label {
     left: 0;
     right: 20px;
     top: 0;
-    bottom: 0;
     background-color: transparent;
     display: none;
     overflow-x: hidden;
@@ -393,11 +392,9 @@ footer ul>li img {
         height: 90vh;
     }
 
-    nav>label,
     section.hero_section main {
         height: calc(90vh - 90px);
     }
-
     /* hero section */
     section.hero_section main {
         width: 70%;
