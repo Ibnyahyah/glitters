@@ -562,7 +562,8 @@ footer ul>li img {
         height: 200px;
         margin: 10px 0;
     }
-
+    section.contact_us_section .info_card.m-auto{
+    display:block;}
     section.contact_us_section .info_card:last-child>div {
         display: none;
     }
