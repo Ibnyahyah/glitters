@@ -58,6 +58,7 @@ nav {
     width: 100%;
     margin: auto;
     z-index: 999;
+    transition: background-color 1s ease-in-out;
 }
 
 nav header h1 {
@@ -87,7 +88,7 @@ nav ul li a {
 nav>label {
     position: absolute;
     height: calc(35vh + 90px);
-    width:100%;
+    width: 100%;
     right: 20px;
     top: 0;
     background-color: transparent;
@@ -384,6 +385,15 @@ footer ul>li img {
     object-fit: contain;
 }
 
+.fade__in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade__in.animate {
+    opacity: 1;
+}
+
 /* 768px responsive */
 @media screen and (max-width: 992px) {
 
@@ -399,6 +409,7 @@ footer ul>li img {
     section.hero_section main {
         height: calc(90vh - 90px);
     }
+
     /* hero section */
     section.hero_section main {
         width: 70%;
@@ -563,8 +574,11 @@ footer ul>li img {
         height: 200px;
         margin: 10px 0;
     }
-    section.contact_us_section .info_card.m-auto{
-    display:block;}
+
+    section.contact_us_section .info_card.m-auto {
+        display: block;
+    }
+
     section.contact_us_section .info_card:last-child>div {
         display: none;
     }
