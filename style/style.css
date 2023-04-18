@@ -51,7 +51,12 @@ nav {
     align-items: center;
     height: 90px;
     position: fixed;
-    top: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    width: 100%;
+    margin: auto;
     z-index: 999;
 }
 
