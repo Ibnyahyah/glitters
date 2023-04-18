@@ -86,12 +86,10 @@ nav ul li a {
 
 nav>label {
     position: absolute;
-    height: calc(100vh + 90px);
-    width: 100vw;
-    left: 0;
+    height: calc(35vh + 90px);
+    width:100%;
     right: 20px;
     top: 0;
-    bottom: 0;
     background-color: transparent;
     display: none;
     overflow-x: hidden;
@@ -398,11 +396,9 @@ footer ul>li img {
         height: 90vh;
     }
 
-    nav>label,
     section.hero_section main {
         height: calc(90vh - 90px);
     }
-
     /* hero section */
     section.hero_section main {
         width: 70%;
@@ -519,7 +515,7 @@ footer ul>li img {
     section.why_choose_us_section h1,
     section.contact_us_section h1,
     section.category_section h1 {
-        font-size: 24px;
+        font-size: 30px;
         line-height: 24px;
         padding-bottom: 30px;
     }
@@ -567,7 +563,8 @@ footer ul>li img {
         height: 200px;
         margin: 10px 0;
     }
-
+    section.contact_us_section .info_card.m-auto{
+    display:block;}
     section.contact_us_section .info_card:last-child>div {
         display: none;
     }
